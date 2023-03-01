@@ -1,19 +1,19 @@
 .container {width: 580px}
 
-.fd-1 {width: 50px; height: 50px; color: white; background-color: red; text-align: center;}
-.fd-2 {width: 50px; height: 50px; color: white; background-color: blue; text-align: center;}
-.fd-3 {width: 50px; height: 50px; color: white; background-color: green; text-align: center;}
-.fd-4 {width: 50px; height: 50px; color: white; background-color: rebeccapurple; text-align: center;}
-.fd-5 {width: 50px; height: 50px; color: white; background-color: orchid; text-align: center;}
+.fd-1 {width: 50px; height: 50px; color: white; background-color: red;  display: flex; justify-content: center; align-items: center;}
+.fd-2 {width: 50px; height: 50px; color: white; background-color: blue;  display: flex; justify-content: center; align-items: center;}
+.fd-3 {width: 50px; height: 50px; color: white; background-color: green;  display: flex; justify-content: center; align-items: center;}
+.fd-4 {width: 50px; height: 50px; color: white; background-color: rebeccapurple;  display: flex; justify-content: center; align-items: center;}
+.fd-5 {width: 50px; height: 50px; color: white; background-color: orchid;  display: flex; justify-content: center; align-items: center;}
 
 .fd {width: 580px; display: flex; justify-content: space-between; margin-top: 50px;}
 .fd-rev{ display: flex; justify-content: space-between; flex-direction: row-reverse; margin-top: 20px; margin-bottom: 50px;}
 
-.fdcol-1 {width: 250px; height: 50px; color: white; background-color: red; text-align: center;}
-.fdcol-2 {width: 250px; height: 50px; color: white; background-color: blue; text-align: center;}
-.fdcol-3 {width: 250px; height: 50px; color: white; background-color: green; text-align: center;}
-.fdcol-4 {width: 250px; height: 50px; color: white; background-color: rebeccapurple; text-align: center;}
-.fdcol-5 {width: 250px; height: 50px; color: white; background-color: orchid; text-align: center;}
+.fdcol-1 {width: 250px; height: 50px; color: white; background-color: red;  display: flex; justify-content: center; align-items: center;}
+.fdcol-2 {width: 250px; height: 50px; color: white; background-color: blue;  display: flex; justify-content: center; align-items: center;}
+.fdcol-3 {width: 250px; height: 50px; color: white; background-color: green;  display: flex; justify-content: center; align-items: center;}
+.fdcol-4 {width: 250px; height: 50px; color: white; background-color: rebeccapurple;  display: flex; justify-content: center; align-items: center;}
+.fdcol-5 {width: 250px; height: 50px; color: white; background-color: orchid;  display: flex; justify-content: center; align-items: center;}
 
 .fd-col {margin-top: 30px;}
 .fd-col1 {margin-top: 30px; display: flex; flex-direction: column-reverse;}
@@ -25,9 +25,9 @@
 .fd-wrap1{display: flex; justify-content: space-between; flex-wrap: wrap; width: 150px;}
 .fd-wrap2{display: flex; justify-content: space-between; flex-wrap: wrap; width: 300px;}
 
-.fd-11 { align-self: center; width: 50px; height: 50px; color: white; background-color: red; text-align: center;}
-.fd-13 { align-self: center; width: 50px; height: 50px; color: white; background-color: red; text-align: center;}
-.fd-15 { align-self: center; width: 50px; height: 50px; color: white; background-color: red; text-align: center;}
+.fd-11 { align-self: center; width: 50px; height: 50px; color: white; background-color: red;  display: flex; justify-content: center; align-items: center;}
+.fd-13 { align-self: center; width: 50px; height: 50px; color: white; background-color: red;  display: flex; justify-content: center; align-items: center;}
+.fd-15 { align-self: center; width: 50px; height: 50px; color: white; background-color: red;  display: flex; justify-content: center; align-items: center;}
 
 .flex-align-self {padding-left: 780px;}
 .ph2 {font-size: 20px;}
@@ -35,3 +35,12 @@
 .vat img {vertical-align: top;}
 .vatb img {vertical-align: bottom;}
 
+.postition-new {display: flex; justify-content: start; }
+.post-title {font-size: 20px;}
+.pos-stat {position: static; left: 50px; right: 50px; margin-right: 50px;}
+.pos-rel {margin-right: 50px;}
+.pos-rel .fd-2 {position: relative; left: 30px; top: -15px;}
+.pos-absl {margin-right: 50px;}
+.pos-absl .fd-1 {position: absolute; left: 433px; top: 1140px;}
+.pos-fx{margin-right: 50px;}
+.pos-fx .fd-3 {position: fixed; top: 500px;}
